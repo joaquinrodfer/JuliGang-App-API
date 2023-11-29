@@ -74,7 +74,7 @@ app.post('/login', async (req, res) => {
     
 })
 
-app.post('/register', async (req, res) => {
+app.post('/signup', async (req, res) => {
     const user = req.body;
 
     if (!user || !user.fullname || !user.username || !user.email || !user.dob || !user.password) {
